@@ -12,6 +12,16 @@
 		BBAD859C22CE81C6007A5D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAD859A22CE81C6007A5D01 /* Main.storyboard */; };
 		BBAD859E22CE81C8007A5D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAD859D22CE81C8007A5D01 /* Assets.xcassets */; };
 		BBAD85A122CE81C8007A5D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAD859F22CE81C8007A5D01 /* LaunchScreen.storyboard */; };
+		BBAD85A922CE81FE007A5D01 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85A822CE81FE007A5D01 /* Coordinator.swift */; };
+		BBAD85AB22CE8236007A5D01 /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85AA22CE8236007A5D01 /* Instantiable.swift */; };
+		BBAD85B022CE83E7007A5D01 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85AF22CE83E7007A5D01 /* MainCoordinator.swift */; };
+		BBAD85B222CE92C0007A5D01 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85B122CE92C0007A5D01 /* BuyViewController.swift */; };
+		BBAD85B422CE92D8007A5D01 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85B322CE92D8007A5D01 /* CreateAccountViewController.swift */; };
+		BBAD85C222CE944A007A5D01 /* Coordinated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85C122CE944A007A5D01 /* Coordinated.swift */; };
+		BBAD85CD22CFF0A4007A5D01 /* BuyCoordinator.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85CC22CFF0A4007A5D01 /* BuyCoordinator.swift.swift */; };
+		BBAD85CF22D68185007A5D01 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85CE22D68185007A5D01 /* Storyboarded.swift */; };
+		BBAD85D122D681D8007A5D01 /* XibedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85D022D681D8007A5D01 /* XibedViewController.swift */; };
+		BBAD85D322D681F8007A5D01 /* ViewCodedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85D222D681F8007A5D01 /* ViewCodedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		BBAD859D22CE81C8007A5D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBAD85A022CE81C8007A5D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBAD85A222CE81C8007A5D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAD85A822CE81FE007A5D01 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BBAD85AA22CE8236007A5D01 /* Instantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiable.swift; sourceTree = "<group>"; };
+		BBAD85AF22CE83E7007A5D01 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		BBAD85B122CE92C0007A5D01 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		BBAD85B322CE92D8007A5D01 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BBAD85C122CE944A007A5D01 /* Coordinated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinated.swift; sourceTree = "<group>"; };
+		BBAD85CC22CFF0A4007A5D01 /* BuyCoordinator.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift.swift; sourceTree = "<group>"; };
+		BBAD85CE22D68185007A5D01 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		BBAD85D022D681D8007A5D01 /* XibedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibedViewController.swift; sourceTree = "<group>"; };
+		BBAD85D222D681F8007A5D01 /* ViewCodedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,152 @@
 		BBAD859522CE81C6007A5D01 /* CoordinatorTest */ = {
 			isa = PBXGroup;
 			children = (
-				BBAD859622CE81C6007A5D01 /* AppDelegate.swift */,
-				BBAD859822CE81C6007A5D01 /* ViewController.swift */,
-				BBAD859A22CE81C6007A5D01 /* Main.storyboard */,
-				BBAD859D22CE81C8007A5D01 /* Assets.xcassets */,
-				BBAD859F22CE81C8007A5D01 /* LaunchScreen.storyboard */,
+				BBAD85BC22CE93CF007A5D01 /* Modules */,
+				BBAD85B822CE9345007A5D01 /* Common */,
 				BBAD85A222CE81C8007A5D01 /* Info.plist */,
 			);
 			path = CoordinatorTest;
+			sourceTree = "<group>";
+		};
+		BBAD85AD22CE835A007A5D01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD859D22CE81C8007A5D01 /* Assets.xcassets */,
+				BBAD859F22CE81C8007A5D01 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BBAD85B522CE9304007A5D01 /* Init */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD859622CE81C6007A5D01 /* AppDelegate.swift */,
+			);
+			path = Init;
+			sourceTree = "<group>";
+		};
+		BBAD85B622CE9308007A5D01 /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85CB22CFF06C007A5D01 /* Coordinators */,
+				BBAD85C022CE940A007A5D01 /* Controllers */,
+			);
+			path = Buy;
+			sourceTree = "<group>";
+		};
+		BBAD85B722CE9322007A5D01 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85BF22CE9402007A5D01 /* Controllers */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		BBAD85B822CE9345007A5D01 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85AD22CE835A007A5D01 /* Resources */,
+				BBAD85B922CE934C007A5D01 /* Protocols */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BBAD85B922CE934C007A5D01 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85D522D68270007A5D01 /* Coordinators */,
+				BBAD85D422D6825C007A5D01 /* Initialization */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BBAD85BA22CE9377007A5D01 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85BE22CE93F0007A5D01 /* Controllers */,
+				BBAD85BD22CE93E9007A5D01 /* Coordinators */,
+				BBAD85BB22CE93AC007A5D01 /* Resources */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BBAD85BB22CE93AC007A5D01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD859A22CE81C6007A5D01 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BBAD85BC22CE93CF007A5D01 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85B522CE9304007A5D01 /* Init */,
+				BBAD85BA22CE9377007A5D01 /* Main */,
+				BBAD85B722CE9322007A5D01 /* Account */,
+				BBAD85B622CE9308007A5D01 /* Buy */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BBAD85BD22CE93E9007A5D01 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85AF22CE83E7007A5D01 /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		BBAD85BE22CE93F0007A5D01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD859822CE81C6007A5D01 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BBAD85BF22CE9402007A5D01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85B322CE92D8007A5D01 /* CreateAccountViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BBAD85C022CE940A007A5D01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85B122CE92C0007A5D01 /* BuyViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BBAD85CB22CFF06C007A5D01 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85CC22CFF0A4007A5D01 /* BuyCoordinator.swift.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		BBAD85D422D6825C007A5D01 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85AA22CE8236007A5D01 /* Instantiable.swift */,
+				BBAD85CE22D68185007A5D01 /* Storyboarded.swift */,
+				BBAD85D022D681D8007A5D01 /* XibedViewController.swift */,
+				BBAD85D222D681F8007A5D01 /* ViewCodedViewController.swift */,
+			);
+			path = Initialization;
+			sourceTree = "<group>";
+		};
+		BBAD85D522D68270007A5D01 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85A822CE81FE007A5D01 /* Coordinator.swift */,
+				BBAD85C122CE944A007A5D01 /* Coordinated.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBAD85D322D681F8007A5D01 /* ViewCodedViewController.swift in Sources */,
+				BBAD85C222CE944A007A5D01 /* Coordinated.swift in Sources */,
+				BBAD85B422CE92D8007A5D01 /* CreateAccountViewController.swift in Sources */,
 				BBAD859922CE81C6007A5D01 /* ViewController.swift in Sources */,
 				BBAD859722CE81C6007A5D01 /* AppDelegate.swift in Sources */,
+				BBAD85D122D681D8007A5D01 /* XibedViewController.swift in Sources */,
+				BBAD85A922CE81FE007A5D01 /* Coordinator.swift in Sources */,
+				BBAD85B022CE83E7007A5D01 /* MainCoordinator.swift in Sources */,
+				BBAD85AB22CE8236007A5D01 /* Instantiable.swift in Sources */,
+				BBAD85CF22D68185007A5D01 /* Storyboarded.swift in Sources */,
+				BBAD85CD22CFF0A4007A5D01 /* BuyCoordinator.swift.swift in Sources */,
+				BBAD85B222CE92C0007A5D01 /* BuyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UH343LG95;
 				INFOPLIST_FILE = CoordinatorTest/Info.plist;
@@ -300,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UH343LG95;
 				INFOPLIST_FILE = CoordinatorTest/Info.plist;
