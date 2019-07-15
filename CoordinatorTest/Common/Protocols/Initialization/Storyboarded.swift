@@ -16,11 +16,7 @@ extension Storyboarded where Self: UIViewController {
         let className = String(describing: self)
         let bundle = Bundle(for: Self.self)
         let storyboard = UIStoryboard(name: className, bundle: bundle)
-        let viewController = storyboard.instantiateViewController(withIdentifier: className) as? Self
-        if viewController == nil {
-            print("view not found")
-        }
-        return viewController
+        return storyboard.instantiateViewController(withIdentifier: className) as? Self
     }
     
 }

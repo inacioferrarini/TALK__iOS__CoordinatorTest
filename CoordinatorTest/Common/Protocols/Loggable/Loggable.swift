@@ -16,7 +16,7 @@ protocol Loggable: class {
     func logDebug(module: String?, category: String, message: StaticString, _ args: CVarArg...)
     func logError(module: String?, category: String, message: StaticString, _ args: CVarArg...)
     func logFault(module: String?, category: String, message: StaticString, _ args: CVarArg...)
-
+    
 }
 
 extension Loggable {

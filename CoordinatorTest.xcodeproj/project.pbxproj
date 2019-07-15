@@ -213,8 +213,8 @@
 				BBAD85AA22CE8236007A5D01 /* Instantiable.swift */,
 				BBAD85CE22D68185007A5D01 /* Storyboarded.swift */,
 				BBAD85D022D681D8007A5D01 /* XibedViewController.swift */,
-				BBAD85D222D681F8007A5D01 /* ViewCodedViewController.swift */,
 				BBAD85DD22DD3E10007A5D01 /* XibedView.swift */,
+				BBAD85D222D681F8007A5D01 /* ViewCodedViewController.swift */,
 			);
 			path = Initialization;
 			sourceTree = "<group>";

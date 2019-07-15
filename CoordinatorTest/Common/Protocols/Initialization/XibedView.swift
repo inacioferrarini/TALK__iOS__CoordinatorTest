@@ -15,11 +15,7 @@ extension XibedView where Self: UIView {
     static func instantiate() -> Self? {
         let className = String(describing: self)
         let bundle = Bundle(for: Self.self)
-        let view = bundle.loadNibNamed(className, owner: nil, options: nil)?.first as? Self
-        if view == nil {
-            print("view not found")
-        }
-        return view
+        return bundle.loadNibNamed(className, owner: nil, options: nil)?.first as? Self
     }
     
 }
