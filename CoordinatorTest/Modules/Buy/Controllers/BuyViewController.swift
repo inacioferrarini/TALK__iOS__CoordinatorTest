@@ -10,7 +10,7 @@ import UIKit
 
 protocol BuyViewControllerDelegate: class {
     
-    func buyDidCompleted()
+    func coordinatorDidCompleteBuy()
     
 }
 
@@ -20,7 +20,7 @@ class BuyViewController: UIViewController, Storyboarded {
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        delegate?.buyDidCompleted()
+        delegate?.coordinatorDidCompleteBuy()
     }
     
 }

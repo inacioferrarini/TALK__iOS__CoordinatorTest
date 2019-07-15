@@ -22,11 +22,15 @@ class MainCoordinator: NSObject, Coordinator {
             vc.delegate = self
             navigationController.pushViewController(vc, animated: false)
         } else {
-            print("Warning: ViewController instantiate() failed.")
+            let coordinatorName = String(describing: self)
+            logFault(category: "ViewController", message: "Coordinator %{PUBLIC}@ failed to load ViewController %{PUBLIC}@ - instantiate() failed.", coordinatorName, "ViewController")
         }
+        
     }
     
 }
+
+extension MainCoordinator: Loggable {}
 
 extension MainCoordinator: ViewControllerDelegate {
     
@@ -41,8 +45,10 @@ extension MainCoordinator: ViewControllerDelegate {
         if let vc = CreateAccountViewController.instantiate() {
             navigationController.pushViewController(vc, animated: true)
         } else {
-            print("Warning: ViewController instantiate() failed.")
+            let coordinatorName = String(describing: self)
+            logFault(category: "ViewController", message: "Coordinator %{PUBLIC}@ failed to load ViewController %{PUBLIC}@ - instantiate() failed.", coordinatorName, "CreateAccountViewController")
         }
+        
     }
     
 }

@@ -29,15 +29,19 @@ class BuyCoordinator: NSObject, Coordinator {
             vc.delegate = self
             navigationController.pushViewController(vc, animated: true)
         } else {
-            print("Warning: BuyViewController instantiate() failed.")
+            let coordinatorName = String(describing: self)
+            logFault(category: "ViewController", message: "Coordinator %{PUBLIC}@ failed to load ViewController %{PUBLIC}@ - instantiate() failed.", coordinatorName, "BuyViewController")
         }
+        
     }
     
 }
 
+extension BuyCoordinator: Loggable {}
+
 extension BuyCoordinator: BuyViewControllerDelegate {
     
-    func buyDidCompleted() {
+    func coordinatorDidCompleteBuy() {
         delegate?.buyDidCompleted()
     }
     

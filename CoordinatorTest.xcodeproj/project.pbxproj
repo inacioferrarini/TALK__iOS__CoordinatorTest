@@ -18,10 +18,12 @@
 		BBAD85B222CE92C0007A5D01 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85B122CE92C0007A5D01 /* BuyViewController.swift */; };
 		BBAD85B422CE92D8007A5D01 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85B322CE92D8007A5D01 /* CreateAccountViewController.swift */; };
 		BBAD85C222CE944A007A5D01 /* Coordinated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85C122CE944A007A5D01 /* Coordinated.swift */; };
-		BBAD85CD22CFF0A4007A5D01 /* BuyCoordinator.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85CC22CFF0A4007A5D01 /* BuyCoordinator.swift.swift */; };
+		BBAD85CD22CFF0A4007A5D01 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85CC22CFF0A4007A5D01 /* BuyCoordinator.swift */; };
 		BBAD85CF22D68185007A5D01 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85CE22D68185007A5D01 /* Storyboarded.swift */; };
 		BBAD85D122D681D8007A5D01 /* XibedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85D022D681D8007A5D01 /* XibedViewController.swift */; };
 		BBAD85D322D681F8007A5D01 /* ViewCodedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85D222D681F8007A5D01 /* ViewCodedViewController.swift */; };
+		BBAD85DA22DD221B007A5D01 /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85D922DD221B007A5D01 /* Loggable.swift */; };
+		BBAD85DE22DD3E10007A5D01 /* XibedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD85DD22DD3E10007A5D01 /* XibedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +40,12 @@
 		BBAD85B122CE92C0007A5D01 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		BBAD85B322CE92D8007A5D01 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		BBAD85C122CE944A007A5D01 /* Coordinated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinated.swift; sourceTree = "<group>"; };
-		BBAD85CC22CFF0A4007A5D01 /* BuyCoordinator.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift.swift; sourceTree = "<group>"; };
+		BBAD85CC22CFF0A4007A5D01 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 		BBAD85CE22D68185007A5D01 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		BBAD85D022D681D8007A5D01 /* XibedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibedViewController.swift; sourceTree = "<group>"; };
 		BBAD85D222D681F8007A5D01 /* ViewCodedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodedViewController.swift; sourceTree = "<group>"; };
+		BBAD85D922DD221B007A5D01 /* Loggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loggable.swift; sourceTree = "<group>"; };
+		BBAD85DD22DD3E10007A5D01 /* XibedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 		BBAD85B922CE934C007A5D01 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				BBAD85D622DD205C007A5D01 /* Loggable */,
 				BBAD85D522D68270007A5D01 /* Coordinators */,
 				BBAD85D422D6825C007A5D01 /* Initialization */,
 			);
@@ -197,7 +202,7 @@
 		BBAD85CB22CFF06C007A5D01 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				BBAD85CC22CFF0A4007A5D01 /* BuyCoordinator.swift.swift */,
+				BBAD85CC22CFF0A4007A5D01 /* BuyCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				BBAD85CE22D68185007A5D01 /* Storyboarded.swift */,
 				BBAD85D022D681D8007A5D01 /* XibedViewController.swift */,
 				BBAD85D222D681F8007A5D01 /* ViewCodedViewController.swift */,
+				BBAD85DD22DD3E10007A5D01 /* XibedView.swift */,
 			);
 			path = Initialization;
 			sourceTree = "<group>";
@@ -220,6 +226,14 @@
 				BBAD85C122CE944A007A5D01 /* Coordinated.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		BBAD85D622DD205C007A5D01 /* Loggable */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD85D922DD221B007A5D01 /* Loggable.swift */,
+			);
+			path = Loggable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +309,7 @@
 			files = (
 				BBAD85D322D681F8007A5D01 /* ViewCodedViewController.swift in Sources */,
 				BBAD85C222CE944A007A5D01 /* Coordinated.swift in Sources */,
+				BBAD85DA22DD221B007A5D01 /* Loggable.swift in Sources */,
 				BBAD85B422CE92D8007A5D01 /* CreateAccountViewController.swift in Sources */,
 				BBAD859922CE81C6007A5D01 /* ViewController.swift in Sources */,
 				BBAD859722CE81C6007A5D01 /* AppDelegate.swift in Sources */,
@@ -303,8 +318,9 @@
 				BBAD85B022CE83E7007A5D01 /* MainCoordinator.swift in Sources */,
 				BBAD85AB22CE8236007A5D01 /* Instantiable.swift in Sources */,
 				BBAD85CF22D68185007A5D01 /* Storyboarded.swift in Sources */,
-				BBAD85CD22CFF0A4007A5D01 /* BuyCoordinator.swift.swift in Sources */,
+				BBAD85CD22CFF0A4007A5D01 /* BuyCoordinator.swift in Sources */,
 				BBAD85B222CE92C0007A5D01 /* BuyViewController.swift in Sources */,
+				BBAD85DE22DD3E10007A5D01 /* XibedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
