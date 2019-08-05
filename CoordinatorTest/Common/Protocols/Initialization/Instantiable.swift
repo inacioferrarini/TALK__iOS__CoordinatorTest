@@ -1,11 +1,3 @@
-//
-//  Instantiable.swift
-//  CoordinatorTest
-//
-//  Created by Inácio Ferrarini on 04/07/19.
-//  Copyright © 2019 inacio. All rights reserved.
-//
-
 import UIKit
 
 /// Markup protocol used to designate that the object intentionally is capable to handle properly its own instantiation.

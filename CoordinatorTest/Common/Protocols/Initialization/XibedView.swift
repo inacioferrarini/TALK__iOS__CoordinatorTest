@@ -1,11 +1,3 @@
-//
-//  XibedView.swift
-//  CoordinatorTest
-//
-//  Created by Inácio Ferrarini on 15/07/19.
-//  Copyright © 2019 inacio. All rights reserved.
-//
-
 import UIKit
 
 protocol XibedView: Instantiable {}
